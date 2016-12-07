@@ -1,0 +1,102 @@
+@font-face {
+    font-family: lighthouse;
+    src: url(fonts/stainy/stainy.ttf);
+}
+
+.navbar-brand {
+    font-family: lighthouse;
+    background-color: black;
+    font-size: 35px;
+}
+
+.navbar {
+    position: relative;
+    font-family: lighthouse;
+    background-color: black;
+    font-size: 35px;
+}
+
+.navbar-brand {
+    margin: 5px;
+}
+
+.headerImg {
+    position: fixed;
+    opacity: .3;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: lighthouse;
+    width: 100%;
+    font-size: 16px;
+    font-size: 5.6vw;
+}
+
+.collectionPhotos {
+    padding: 0;
+    box-sizing: border-box;
+    display: inline;
+    width: 100%;
+    opacity: .9;
+    border: silver solid 2px;
+    margin: -3px;
+    margin-bottom: -1px
+}
+
+.collectionPhotos:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 641px) {
+    .collectionPhotos {
+        box-sizing: border-box;
+        width: 10%;
+    }
+}
+
+.collections {
+    text-align: center;
+    font-size: 50px;
+    font-family: lighthouse;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.footer {
+    font-size: 4vw;
+    font-family: lighthouse;
+    position: fixed;
+    height: 50px;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.img1 {
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+
+myCollections {
+    display: inline;
+    margin-left: 10px;
+}
+
+body {
+    display: inline;
+}
+
+form {
+    background-color: grey: opacity: .7;
+    text-align: center;
+}
